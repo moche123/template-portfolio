@@ -5,6 +5,8 @@ module.exports = {
     // defaultLineHeights: true,
     // standardFontWeights: true
   },
+  content: ["./src/**/*.{html,js, jsx,tsx}"],
+
   purge: [],
   target: "relaxed",
   prefix: "",

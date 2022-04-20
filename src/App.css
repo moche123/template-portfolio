@@ -1,0 +1,40 @@
+.floatButton{
+    position:fixed;
+right:0;
+top:0;
+}
+
+
+
+.toggle-checkbox:checked {
+    @apply: right-0 border-green-400;
+    right: 0;
+    border-color: #17073d;
+  }
+  .toggle-checkbox:checked + .toggle-label {
+    @apply: bg-green-400;
+    background-color: #17073d;
+  }
+
+
+
+  .toggle-checkbox2:checked {
+    @apply: right-0 border-green-400;
+    right: 0;
+    border-color: rgb(255, 67, 67);
+  }
+  .toggle-checkbox2:checked + .toggle-label {
+    @apply: bg-green-400;
+    background-color: rgb(4, 23, 104);
+  }
+
+  .shad{
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  
+  }
+
+  .shaddark{
+    /* box-shadow: rgba(214, 125, 226, 0.1) 0px 1px 1px 0px inset, rgba(255, 59, 212, 0.25) 0px 50px 100px -20px, rgba(224, 0, 187, 0.3) 0px 30px 60px -30px; */
+ 
+    box-shadow: rgba(221, 82, 163, 0.25) 0px 10px 36px 0px, rgba(250, 148, 191, 0.3) 0px 0px 0px 1px;
+  }
