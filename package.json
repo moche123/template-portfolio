@@ -17,6 +17,7 @@
   },
   "scripts": {
     "start": "npm run watch:css && react-scripts start",
+    "homepage":"https://moche123.github.io/template-portfolio",
     "build": "npm run watch:css && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
