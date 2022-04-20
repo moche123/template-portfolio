@@ -1,5 +1,4 @@
 import React from "react";
-import ProjectCard from "./ProjectCard";
 import gentleman from "../images/gentleman.jpg";
 import edullka from "../images/certiprof.jpg";
 import certiprof from "../images/edullka.jpg";

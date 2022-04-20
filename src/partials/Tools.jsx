@@ -17,7 +17,7 @@ const Tools = ({ light, tools, language }) => {
                     <div className={light ? "mb-1 text-base font-large languagesListItem mr-1" : "mb-1 text-base font-large languagesListItem mr-1 text-white"}>
                         
                         {
-                                        item.type==1?'Advanced': item.type==2 ? 'Intermediate':'Basic'
+                                        item.type===1?'Advanced': item.type===2 ? 'Intermediate':'Basic'
                                         
                                         }
 
